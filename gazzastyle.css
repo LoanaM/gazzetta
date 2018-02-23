@@ -9,8 +9,7 @@
   margin: auto;
   background-color: #fde9eb;
 }
-.videoblock{
-  height: 100px;
+.videoblock {
   width: 100%;
 }
 .videoblock img {
@@ -18,7 +17,6 @@
   width: 20%;
   border: 4px solid black;
   margin-right: -4px;
-
 }
 .content {
   width: 100%;
@@ -26,7 +24,7 @@
 }
 .column {
   float: left;
-  height: 100%;
+  height: 95%;
   font-family: arial;
   margin:5px;
 }
@@ -42,6 +40,9 @@ width: 50%;
 }
 .right {
 width: 30%;
+}
+.fa < {
+  color: orange;
 }
 .fa span {
   font-family: arial narrow;
@@ -74,7 +75,7 @@ li span {
 .halfart {
   width:45%;
   float:left;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .halfart img {
   height:120px;
@@ -83,4 +84,29 @@ li span {
   width: 100%;
   border: 20px solid pink;
   margin-top: 20px;
+}
+.mainarticle {
+  width: 91%;
+  height: 300px;
+  background-image: url('img/main-image.jpg');
+  background-size: cover;
+  color: white;
+  position: relative;
+  margin-bottom: 10px;
+}
+.colofilter {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.textcontainer {
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+}
+.textcontainer h1 {
+  font-size: 24px;
+}
+.textcontainer p2 {
+  font-size: 10px;
 }
