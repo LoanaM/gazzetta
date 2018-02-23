@@ -8,6 +8,7 @@
   height: 900px;
   margin: auto;
   background-color: #fde9eb;
+  position: relative;
 }
 .videoblock {
   width: 100%;
@@ -110,4 +111,9 @@ li span {
 }
 .textcontainer p2 {
   font-size: 10px;
+}
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 20%;
 }
