@@ -16,33 +16,50 @@
 .column {
   float: left;
   height: 100%;
+  font-family: arial;
+  margin:5px;
 }
 .left {
-width: 20%;
-border-top: 1px solid grey;
+width: 15%;
+border-top: 3px solid black;
 border-right: 1px solid grey;
-font-family: arial;
 font-size: 13px;
 position: relative;
 }
 .central {
 width: 50%;
-background-color: brown;
 }
 .right {
 width: 30%;
-background-color: yellow;
 }
 .fa span {
-  font-weight: bold;
-  font-family: arial;
+  font-family: impact;
   font-size: 15px;
 }
-
+ul {
+  border-top: 1px solid grey;
+}
 li span {
   border: 1px solid white;
   background-color: red;
   color: white;
   position: absolute;
   right: 5px;
+}
+.article h4 {
+  color: orange;
+}
+.orangetit {
+  color: orange;
+  font-size: 12px;
+}
+.orangetit span {
+  color: grey;
+}
+.halfart {
+  width:50%;
+  float:left;
+}
+.halfart img {
+  width:50%
 }
