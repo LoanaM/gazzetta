@@ -41,10 +41,10 @@ width: 50%;
 .right {
 width: 30%;
 }
-.fa < {
+.fa-youtube, .fa-envelope {
   color: orange;
 }
-.fa span {
+.fa + span {
   font-family: arial narrow;
   font-size: 15px;
 }
@@ -103,6 +103,7 @@ li span {
   position: absolute;
   bottom: 3%;
   left: 5%;
+  right: 5%;
 }
 .textcontainer h1 {
   font-size: 24px;
