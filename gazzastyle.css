@@ -12,13 +12,50 @@
 }
 .videoblock {
   width: 100%;
+  height: 100px;
 }
-.videoblock img {
-  height: 100%;
+.video {
   width: 20%;
+  height: 100%;
+  background-size: cover;
   border: 4px solid black;
+  display: inline-block;
   margin-right: -4px;
+  position: relative;
+  opacity: 0.8;
 }
+  .v1 {
+    background-image: url(img/video-preview1.jpg);
+  }
+  .v2 {
+    background-image: url(img/video-preview2.jpg);
+  }
+  .v3 {
+    background-image: url(img/video-preview3.jpg);
+  }
+  .v4 {
+    background-image: url(img/video-preview4.jpg);
+  }
+  .v5 {
+    background-image: url(img/video-preview5.jpg);
+  }
+  .description {
+    position: absolute;
+    bottom: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+  }
+  .video img {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    height: 25px;
+    border: 2px solid white;
+    padding: 3px 5px;
+  }
+
 .content {
   width: 100%;
   height: 800px;
@@ -115,7 +152,7 @@ li span {
 footer {
   position: absolute;
   bottom: 10px;
-  left: 20%;  
+  left: 20%;
   width:70%;
 }
 footer img {
