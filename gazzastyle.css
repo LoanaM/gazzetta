@@ -33,7 +33,7 @@ width: 50%;
 width: 30%;
 }
 .fa span {
-  font-family: impact;
+  font-family: arial narrow;
   font-size: 15px;
 }
 ul {
@@ -46,7 +46,7 @@ li span {
   position: absolute;
   right: 5px;
 }
-.article h4 {
+.article h5 {
   color: orange;
 }
 .orangetit {
@@ -57,9 +57,11 @@ li span {
   color: grey;
 }
 .halfart {
-  width:50%;
+  width:45%;
   float:left;
+  margin-right: 10px;
 }
 .halfart img {
-  width:50%
+  height:120px;
+  width:100%;
 }
