@@ -9,11 +9,16 @@
   margin: auto;
   background-color: #fde9eb;
 }
-
-.bloccofoto{
+.videoblock{
   height: 100px;
   width: 100%;
-  background-color: red;
+}
+.videoblock img {
+  height: 100%;
+  width: 20%;
+  border: 4px solid black;
+  margin-right: -4px;
+
 }
 .content {
   width: 100%;
